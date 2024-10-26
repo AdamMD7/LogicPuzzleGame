@@ -1,4 +1,5 @@
 // Initialize streak and game logic
+console.log("JavaScript is running!");
 let streak = localStorage.getItem('streak') || 0;
 document.getElementById('streak-counter').textContent = `Streak: ${streak} days`;
 
